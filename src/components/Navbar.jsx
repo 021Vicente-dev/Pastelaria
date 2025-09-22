@@ -34,7 +34,7 @@ const Navbar = () => {
                     id="home"
                     className="min-h-[100vh] p-0 m-0 flex items-center justify-center text-black scroll-mt-20 bg-cover bg-center  "
 
-                    style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/bg.jpg)` }}
+                    style={"/image/bg.jpg"}
                 >
                     <Home />
                 </section>
