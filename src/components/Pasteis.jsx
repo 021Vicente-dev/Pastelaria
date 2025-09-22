@@ -1,15 +1,12 @@
 import { useRef, useState } from "react";
-import bg from "../images/bg.jpg";
-import image1 from "../images/image1.jpg";
-import image2 from "../images/image2.png";
 
 const pasteis = [
-  { src: bg, nome: "Pastel de Queijo" },
-  { src: image2, nome: "Pastel de Carne com queijo" },
-  { src: image1, nome: "Pastel de pizza" },
-  { src: bg, nome: "Pastel de Frango" },
-  { src: image1, nome: "Pastel de carne" },
-  { src: bg, nome: "Pastel de Palmito" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Queijo" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Carne com queijo" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de pizza" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Frango" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de carne" },
+  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Palmito" },
 ];
 
 const Pasteis = () => {
