@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="bg-[#00000069] backdrop-blur-md rounded-b-md fixed top-0 left-0 w-full h-20 flex justify-center gap-8 z-50">
                 <div>
                     <a href="#home">
-                        <img src="..image/bg.jpg" alt="logo" className="w-20" />
+                        <img src="image/bg.jpg" alt="logo" className="w-20" />
                     </a>
                 </div>
 
