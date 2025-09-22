@@ -1,12 +1,15 @@
 import { useRef, useState } from "react";
+import bg from "./../../public/bg.jpg";
+import image1 from "./../../public/image1.jpg";
+import image2 from "./../../public/image2.png";
 
 const pasteis = [
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502730/queijo_hf3jfb.jpg", nome: "Pastel de Queijo" },
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502731/carne-queijo_axitna.png", nome: "Pastel de Carne com queijo" },
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502730/pastei_em_geral_nbjwcp.jpg", nome: "Pastel de pizza" },
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502731/imagem_2025-09-21_215847556_rvwdum.png", nome: "Pastel de Frango" },
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502731/imagem_2025-09-21_215847556_rvwdum.png", nome: "Pastel de carne" },
-  { src: "https://res.cloudinary.com/dgz1u5dzx/image/upload/v1758502731/imagem_2025-09-21_215847556_rvwdum.png", nome: "Pastel de Palmito" },
+  { src: bg, nome: "Pastel de Queijo" },
+  { src: image2, nome: "Pastel de Carne com queijo" },
+  { src: image1, nome: "Pastel de pizza" },
+  { src: bg, nome: "Pastel de Frango" },
+  { src: image1, nome: "Pastel de carne" },
+  { src: bg, nome: "Pastel de Palmito" },
 ];
 
 const Pasteis = () => {
