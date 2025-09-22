@@ -36,7 +36,7 @@ const Navbar = () => {
                     className="min-h-[100vh] p-0 m-0 flex items-center justify-center text-black scroll-mt-20 bg-cover bg-center  "
 
                     style={{
-                        backgroundImage: "url('./../../public/bg.jpg')",
+                        backgroundImage: "url('https://media.discordapp.net/attachments/1418974415902740694/1419374204582887454/c3c19b5d-67dc-4e48-ab66-82d057fbe606.jpg?ex=68d186bd&is=68d0353d&hm=3be4d9106f8b757c6264b805971e777bbe893c1389b1e90a4f087a051bddaebf&=&format=webp&width=408&height=544')",
                     }}
                 >
                     <Home />
