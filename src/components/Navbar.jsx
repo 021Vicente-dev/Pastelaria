@@ -1,5 +1,5 @@
-import logo from "./../../public/logo.png";
-import bg from "./../../public/bg.jpg";
+import logo from "./image/logo.png";
+import bg from "./image/bg.jpg";
 import Home from "./Home";
 import Pasteis from "./Pasteis";
 import Footer from "./Footer";

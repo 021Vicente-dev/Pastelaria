@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
-import bg from "./../../public/bg.jpg";
-import image1 from "./../../public/image1.jpg";
-import image2 from "./../../public/image2.png";
+import bg from "./image/bg.jpg";
+import image1 from "./image/image1.jpg";
+import image2 from "./image/image2.png";
 
 const pasteis = [
   { src: bg, nome: "Pastel de Queijo" },
