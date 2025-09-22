@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="bg-[#00000069] backdrop-blur-md rounded-b-md fixed top-0 left-0 w-full h-20 flex justify-center gap-8 z-50">
                 <div>
                     <a href="#home">
-                        <img src="image/bg.jpg" alt="logo" className="w-20" />
+                        <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="logo" className="w-20" />
                     </a>
                 </div>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
                     id="home"
                     className="min-h-[100vh] p-0 m-0 flex items-center justify-center text-black scroll-mt-20 bg-cover bg-center  "
 
-                    style={"image/bg.jpg"}
+                    style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/bg.jpg)` }}
                 >
                     <Home />
                 </section>
