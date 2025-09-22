@@ -1,5 +1,5 @@
-import logo from "./image/logo.png";
-import bg from "./image/bg.jpg";
+import logo from "../images/logo.png";
+import bg from "../images//bg.jpg";
 import Home from "./Home";
 import Pasteis from "./Pasteis";
 import Footer from "./Footer";
@@ -37,7 +37,7 @@ const Navbar = () => {
                     className="min-h-[100vh] p-0 m-0 flex items-center justify-center text-black scroll-mt-20 bg-cover bg-center  "
 
                     style={{
-                        backgroundImage: `url(${bg})`,
+                        backgroundImage: `url('${bg}')`,
                     }}
                 >
                     <Home />
