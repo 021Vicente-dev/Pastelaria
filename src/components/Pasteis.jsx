@@ -1,12 +1,12 @@
 import { useRef, useState } from "react";
 
 const pasteis = [
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Queijo" },
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Carne com queijo" },
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de pizza" },
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Frango" },
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de carne" },
-  { src: `${import.meta.env.BASE_URL}images/bg.jpg`, nome: "Pastel de Palmito" },
+  { src: "https://cdn.discordapp.com/attachments/1418974415902740694/1419385314979614770/0f1cb5b8-5979-42da-9ad7-04f2250234fc.jpg?ex=68d19115&is=68d03f95&hm=1bb529bee7d1c770f6945019ff66e24b6cc192daf1d37bf863d0c581954ab663&", nome: "Pastel de Queijo" },
+  { src: "https://cdn.discordapp.com/attachments/1418974415902740694/1419375268405182655/raw.png?ex=68d187ba&is=68d0363a&hm=77d996ad50ea90c899609b57a2f153014b86a244d23de756ca0a48bf6a87d3ff&", nome: "Pastel de Carne com queijo" },
+  { src: "https://cdn.discordapp.com/attachments/1418974415902740694/1419374204582887454/c3c19b5d-67dc-4e48-ab66-82d057fbe606.jpg?ex=68d186bd&is=68d0353d&hm=3be4d9106f8b757c6264b805971e777bbe893c1389b1e90a4f087a051bddaebf&", nome: "Pastel de pizza" },
+  { src: "https://media.discordapp.net/attachments/1418974415902740694/1419385315415687268/9611c0f4-ccf4-4dd2-807d-00fe207ed849.jpg?ex=68d19116&is=68d03f96&hm=1fe0d1276d190115f29bde3d1bf21fabaef8958723542fd08366efc65dd73734&=&format=webp&width=408&height=544", nome: "Pastel de Frango" },
+  { src: "https://media.discordapp.net/attachments/1418974415902740694/1419385315415687268/9611c0f4-ccf4-4dd2-807d-00fe207ed849.jpg?ex=68d19116&is=68d03f96&hm=1fe0d1276d190115f29bde3d1bf21fabaef8958723542fd08366efc65dd73734&=&format=webp&width=408&height=544", nome: "Pastel de carne" },
+  { src: "https://media.discordapp.net/attachments/1418974415902740694/1419385315415687268/9611c0f4-ccf4-4dd2-807d-00fe207ed849.jpg?ex=68d19116&is=68d03f96&hm=1fe0d1276d190115f29bde3d1bf21fabaef8958723542fd08366efc65dd73734&=&format=webp&width=408&height=544", nome: "Pastel de Palmito" },
 ];
 
 const Pasteis = () => {

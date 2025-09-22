@@ -1,3 +1,4 @@
+import logo from "./../../public/logo.png";
 import Home from "./Home";
 import Pasteis from "./Pasteis";
 import Footer from "./Footer";
@@ -8,7 +9,7 @@ const Navbar = () => {
             <div className="bg-[#00000069] backdrop-blur-md rounded-b-md fixed top-0 left-0 w-full h-20 flex justify-center gap-8 z-50">
                 <div>
                     <a href="#home">
-                        <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="logo" className="w-20" />
+                        <img src={logo} alt="logo" className="w-20" />
                     </a>
                 </div>
 
@@ -34,7 +35,9 @@ const Navbar = () => {
                     id="home"
                     className="min-h-[100vh] p-0 m-0 flex items-center justify-center text-black scroll-mt-20 bg-cover bg-center  "
 
-                    style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/bg.jpg)` }}
+                    style={{
+                        backgroundImage: "url('https://media.discordapp.net/attachments/1418974415902740694/1419374204582887454/c3c19b5d-67dc-4e48-ab66-82d057fbe606.jpg?ex=68d186bd&is=68d0353d&hm=3be4d9106f8b757c6264b805971e777bbe893c1389b1e90a4f087a051bddaebf&=&format=webp&width=408&height=544')",
+                    }}
                 >
                     <Home />
                 </section>
