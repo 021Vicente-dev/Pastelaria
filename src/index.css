@@ -1,0 +1,37 @@
+@import "tailwindcss";
+body {
+  background-color: #faefd1;
+    font-family: "SUSE Mono", sans-serif;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typing {
+  animation: typing 5s steps(50, end), blink 0.7s infinite;
+}
+
+.shadow-neon {
+    box-shadow: 0 0 10px #25D366, 0 0 20px #25D366, 0 0 30px #25D366, 0 0 40px #25D366;
+  }
+
+  /* Animação de pulso */
+  @keyframes pulseNeon {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 0 5px #25D366, 0 0 5px #25D366, 0 0 5px #25D366, 0 0 5px #25D366;
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #25D366, 0 0 10px #25D366, 0 0 10px #25D366, 0 0 20px #25D366;
+    }
+  }
+
+  .animate-pulse-neon {
+    animation: pulseNeon 2s infinite;
+  }
