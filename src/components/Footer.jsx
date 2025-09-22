@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <footer className="bg-[#8f654d] text-white py-10 flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20">
